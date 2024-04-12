@@ -1,0 +1,16 @@
+site_name: MK Docs Tutorial
+nav:
+  - Home: index.md
+  - calculator:
+      - Add: calculator/add.md
+      - Subtract: calculator/subtract.md
+      - Multiply: calculator/multiply.md
+      - Divide: calculator/divide.md
+plugins:
+  - search
+  - mkdocstrings
+theme:
+  name: mkdocs
+  features:
+    - content.code.copy
+    - content.code.select
